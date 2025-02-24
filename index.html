@@ -110,6 +110,41 @@
         text-decoration: underline;
         transition: 0.8s;
     }
+
+   .searchBox{
+    display: flex;
+   }
+    /*mobile*/
+    @media (max-width:600px) {
+
+        .navbar{
+        height: 40px;
+        width: 100%;
+        display: flex;
+       }
+
+       .menu{
+        display: flex;
+       }
+
+       .search{
+        display: none;
+       }
+
+       .menus{
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 8px;
+        
+    }
+
+    .hamberger-menu{
+        margin-left: 100px;
+        
+    }
+        
+    }
     </style>
 </head>
 <body>
@@ -123,13 +158,17 @@
             <a href="c" class="menus">CupCakes</a>
             <a href="r" class="menus">Recipe</a>
             <a href="b" class="menus">Blog</a>
-            <a href="b" class="menus">OrderOnline</a>
-            <a href="c" class="menus">Contact us</a>
+            <a href="c" class="menus">Contact</a>
+
         </div>
 
         <div class="searchBox">
             <input type="text" placeholder="Search" class="search">
+            <img src="menu.png" alt="menu" class="hamberger-menu">
         </div>
+
+
+
         
     </div>
     <div>
