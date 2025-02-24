@@ -81,12 +81,12 @@
         height: 40px;
         width: full;
         margin-top: 8px;
+        display: flex;
        }
 
        .menu{
         width: 60%;
         padding-top: 8px;
-        background-color: black;
        }
        
        .menus{
@@ -95,6 +95,20 @@
         font-size: 20px;
         margin: 15px;
         
+    }
+
+    .search{
+        font-size: 18px;
+        border-radius: 20px;
+        border: none;
+        padding: 5px 10px;
+        margin-top: 3px;
+        margin-left: 160px;
+    }
+
+    .menus:hover{
+        text-decoration: underline;
+        transition: 0.8s;
     }
     </style>
 </head>
@@ -113,8 +127,8 @@
             <a href="c" class="menus">Contact us</a>
         </div>
 
-        
-
+        <div class="searchBox">
+            <input type="text" placeholder="Search" class="search">
         </div>
         
     </div>
